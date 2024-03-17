@@ -1,23 +1,15 @@
-import logo from './logo.svg';
+import StateComponent from './State';
+import StateComponentTwo from './StateTwo';
+import NumberGame from './NumberGame';
+import { ButtonGroup, ButtonGroupTwo } from './ButtonGroup';
+import 'semantic-ui-css/semantic.min.css'
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1 className = 'title'> Events and State Practice </h1>
+      <NumberGame /> 
     </div>
   );
 }
